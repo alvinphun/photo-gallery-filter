@@ -1,0 +1,65 @@
+/* Main Styles */
+
+body {
+	font-family: 'Varela Round', sans-serif;
+}
+
+.search-box {
+	text-align: center;
+	margin-top: 2em;
+}
+
+.search_input {
+     font: 13px/1.6 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	padding: 13px 13px 13px 40px;
+	border: 1px solid #e2e2e2;
+	border-radius: 0;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+     box-shadow: none; 
+	outline: 0;
+	margin: 0;
+	background: #fff url('../img/search.png') no-repeat 15px 15px;
+}
+
+
+.search-header {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin-top: 0;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	top: 0;
+	
+
+}
+
+/* Gallery Styles */
+
+.gallery {
+	list-style: none;
+	text-align: center;
+	padding-top: 105px;
+	padding-left: 0;
+}
+
+.gallery li {
+	display: inline-block;
+	padding: 30px;
+	padding-top: 0.65em;
+}
+
+
+
+/* Media Queries */
+
+
+@media (min-width: 551px) {
+
+	.search_input {
+		width: 400px;
+	}
+}
